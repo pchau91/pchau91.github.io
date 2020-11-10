@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Weather API</title>
+  </head>
+  <body>
+    <div class="app-wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Search for a city..."
+        />
+      </header>
+
+      <!-- Main section of the content -->
+      <main>
+        <section class="location">
+          <div class="city">Location</div>
+          <div class="date">--/--/--</div>
+        </section>
+        <div class="current">
+          <div class="temp"><span>0°c</span></div>
+          <div class="weather">...</div>
+          <div class="hi-low">0°c / 0°c</div>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
